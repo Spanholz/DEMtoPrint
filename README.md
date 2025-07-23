@@ -65,7 +65,8 @@ In the end a single will be there `merged_transformed.tif`
 ### Configure STL Export Settings
 
 Use the following configuration in the DEM to 3D printing plugin:
-![DEM Screen Cap](https://github.com/user-attachments/assets/dfbe0f03-855e-4134-b5bd-4f5204b91a7a)
+<img width="1293" height="480" alt="Bildschirmfoto_20250723_152331" src="https://github.com/user-attachments/assets/4e6ad3ed-8c4e-4ec9-994f-233a2e38dfd9" />
+
 
 #### 1. Area Selection
 - **Use the full area of the GeoTIFF**: Set the boundaries to cover your entire elevation model
@@ -76,7 +77,8 @@ Use the following configuration in the DEM to 3D printing plugin:
 - **Important**: If you plan to print in multiple parts (e.g., 2x2 grid), these dimensions represent the **full assembled model size**, not individual print bed size
 
 #### 3. Model Division
-- **Divide your model**: Split into 2x2 individual STL files (or adjust based on your printer's bed size)
+- **Divide your model**: Split into 2x2 individual STL<
+ files (or adjust based on your printer's bed size)
 - This creates separate STL files for each section that can be printed individually and assembled later
 
 #### 4. Base Height Settings
