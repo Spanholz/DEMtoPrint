@@ -33,11 +33,11 @@ Download the Jupyter notebook and
 #### Configure Project Folder
 
 This is the folder where the extracted data lies. The script will look into the individual subfolders for the .xyz-files. An example can be seen below.
-![Folder Structure](https://github.com/user-attachments/assets/8300dc2b-e4ee-4f37-acec-fa3998580c2f)
+![Folder Structure](https://github.com/user-attachments/assets/4e6ad3ed-8c4e-4ec9-994f-233a2e38dfd9)
 
 ### Start the script by executing the cell
 
-In the end a single will be there `merged_transformed.tif`
+In the end a single will be there `merged_dem.tif`
 
 
 
@@ -65,7 +65,7 @@ In the end a single will be there `merged_transformed.tif`
 ### Configure STL Export Settings
 
 Use the following configuration in the DEM to 3D printing plugin:
-<img width="1293" height="480" alt="Bildschirmfoto_20250723_152331" src="https://github.com/user-attachments/assets/4e6ad3ed-8c4e-4ec9-994f-233a2e38dfd9" />
+![DEM Screen Cap](https://github.com/user-attachments/assets/dfbe0f03-855e-4134-b5bd-4f5204b91a7a)
 
 
 #### 1. Area Selection
@@ -97,6 +97,6 @@ Use the following configuration in the DEM to 3D printing plugin:
 ### 3D Printing Tips
 1. **Scaling**: Verify the scale matches your intended physical dimensions
 2. **Layer Height**: Use 0.2 layer height for good detail vs. speed balance
-3. **Support**: Terrain models typically require minimal support due to gradual slopes
-4. **Infill**: 15-20% infill is usually sufficient for terrain models
-5. **Oritentation** Either print flat to get a distinctive layer look or sideways for smoother walls but beware of overhangs.
+3. **Support**: Terrain models typically require minimal to no support due to gradual slopes
+4. **Infill**: 5-15% infill is usually sufficient for terrain models
+5. **Orientation** Either print flat to get a distinctive layer look or sideways for smoother walls but beware of overhangs.
